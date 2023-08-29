@@ -15,8 +15,9 @@
 /* Header */
 header {
     position: sticky;
-    /* top: 20px; */
+    top: 0;
     background-color: #FEF6F6;
+    z-index: 100;
 }
 
 /* Navegación */
@@ -47,6 +48,10 @@ header {
 }
 
 .nav a:hover {
+    color: #D6B495;
+}
+
+.nav a:active {
     color: #D6B495;
 }
 
@@ -110,6 +115,7 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
+    border-style: none;
 }
 
 /* Sección textura */
@@ -409,10 +415,12 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     max-width: 100%;
+    margin: 30px auto;
     justify-items: center;
 }
 
 #main-sobremi .img-agus img {
+    margin: 0;
     max-width: 350px;
 }
 
