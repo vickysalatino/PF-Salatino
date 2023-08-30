@@ -552,7 +552,6 @@ header {
 
 #main-contacto .form .img {
     max-width: 50%;
-    /* Ajusta el ancho de la imagen como desees */
     align-self: flex-start;
 }
 
@@ -592,9 +591,9 @@ header {
 }
 
 /* Contenido principal Preguntas frecuentes */
-/* #body-faqs {
+#body-faqs {
     background-color: #FEF6F6;
-} */
+}
 
 #main-faqs .title-faqs {
     display: flex;
@@ -630,6 +629,13 @@ header {
     font-style: normal;
     font-weight: 700;
     padding-top: 118px;
+}
+
+.accordion {
+    --bs-accordion-btn-bg: #FEF6F6;
+    --bs-accordion-active-bg: #FEF6F6;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: #FEF6F6;
 }
 
 
