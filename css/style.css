@@ -55,6 +55,10 @@ header {
     color: #D6B495;
 }
 
+.navbar {
+    display: none;
+}
+
 /* Contenido principal Inicio */
 #body-index {
     background-color: #FEF6F6;
@@ -692,23 +696,12 @@ header {
 /* Media Queries */
 @media (max-width: 800px) {
     .header {
-        bottom: 0;
-        width: 100%;
-        background-color: #FEF6F6;
-        height: 60px;
-        display: flex;
+        display: none;
     }
 
-    .header ul {
-        justify-content: center;
-    }
-
-    .nav li {
-        margin: 0 10px;
-    }
-
-    .nav a {
-        font-size: 16px;
+    .navbar {
+        display: block;
+        --bs-navbar-color: #000;
     }
 
     .main-menu__img-sabores {
@@ -742,7 +735,7 @@ header {
         height: 38px;
     }
 
-    .footer__nav{
+    .footer__nav {
         height: 25px;
     }
 
@@ -752,73 +745,51 @@ header {
 }
 
 @media (max-width: 740px) {
-        /* Footer */
-        .footer {
-            margin-top: 60px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .footer__links {
-            flex-direction: column;
-            text-align: left;
-            padding-top: 40px;
-        }
-    
-        .footer__logo {
-            padding-bottom: 20px;
-            height: 38px;
-        }
-    
-        .footer__nav {
-            margin-top: 10px;
-        }
-    
-        .footer__nav li {
-            margin: 10px 0;
-        }
-    
-        .footer__nav a {
-            font-size: 16px;
-        }
-    
-        .footer__nav ul {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .footer__icons {
-            margin-top: 10px;
-        }
+
+    /* Footer */
+    .footer {
+        margin-top: 60px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__links {
+        flex-direction: column;
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    .footer__logo {
+        padding-bottom: 20px;
+        height: 38px;
+    }
+
+    .footer__nav {
+        margin-top: 10px;
+    }
+
+    .footer__nav li {
+        margin: 10px 0;
+    }
+
+    .footer__nav a {
+        font-size: 16px;
+    }
+
+    .footer__nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__icons {
+        margin-top: 10px;
+    }
 }
 
 
 /* Estilos para la versión móvil más pequeña (pantallas de 480px o menos) */
 @media (max-width: 480px) {
-    .header {
-        left: 0;
-        width: 90%;
-        height: 30px;
-        box-shadow: 0px 8px 2rem rgba(0, 0, 0, 0.15);
-        padding: 20px 0;
-        display: flex;
-        justify-content: center;
-        z-index: 100;
-        left: 0;
-        bottom: 10px;
-        border-radius: 10px;
-        position: fixed;
-        background-color: white;
-    }
-
-    .logo-header {
-        display: none;
-    }
-
-    .nav a {
-        font-size: 16px;
-    }
 
     /* Página Menú */
     .main-menu__img-sabores {
@@ -898,12 +869,5 @@ header {
 
     .footer__icons {
         margin-top: 10px;
-    }
-}
-
-
-@media (max-width: 320px) {
-    .nav a {
-        font-size: 11px;
     }
 }
