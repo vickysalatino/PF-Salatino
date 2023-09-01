@@ -580,7 +580,7 @@ header {
 #main-contacto .mapa .punto {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 24px;
 }
 
@@ -588,9 +588,9 @@ header {
     color: #000;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 28px;
+    font-size: 20px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
     padding-left: 40px;
 }
 
