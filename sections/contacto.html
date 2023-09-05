@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>LE MA-KA Buenos Aires | Contacto</title>
+</head>
+
+<body id="body-contacto">
+    <!-- Encabezado -->
+    <header class="header">
+        <a href="../index.html">
+            <!-- Logo -->
+            <img class="logo-header" src="../resources/img/logo-header.svg" alt="Logo Le Ma-ka">
+        </a>
+        <!-- Navegación -->
+        <nav class="nav">
+            <!-- Lista ul: Unordered list | ol: Ordered list -->
+            <!-- Lista no ordenada -->
+            <!-- (li>a)*5 -->
+            <ul>
+                <!-- Anchor | Para colocar enlaces -->
+                <!-- href: hipervínculo de referencia -->
+                <!-- Enlace relativo: Te mantiene dentro del sitio | Enlace absoluto: me saca del sitio -->
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./menu.html">Menú</a></li>
+                <li><a href="./pedidos-especiales.html">Pedidos especiales</a></li>
+                <li><a href="./sobre-mi.html">Sobre mí</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <li><a href="./faqs.html">Preguntas frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Navbar Bootstrap -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                  <img src="../resources/img/logo-header.svg" alt="Bootstrap" width="30" height="24">
+                </a>
+              </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../sections/menu.html">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../sections/pedidos-especiales.html">Pedidos especiales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../sections/sobre-mi.html">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../sections/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../sections/faqs.html">Preguntas frecuentes</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Contenido principal -->
+    <main id="main-contacto">
+        <!-- Formulario get: información no sensible | post: info sensible ej.login -->
+        <section class="form">
+            <div class="left">
+                <div class="text">
+                    <h2>CONTACTANOS</h2>
+                    <h1>Hacé tu pedido</h1>
+                    <p>Si necesitás una cotización o simplemente tenés curiosidad por saber más sobre alguno de los
+                        servicios, ¡Escribime!</p>
+                    <p class="email">Email: lemakabsas@gmail.com </p>
+                    <p class="whatsapp">WhatsApp: +54 9 1125678513</p>
+                </div>
+
+                <form action="?" method="get">
+                    <label for="">Nombre</label>
+                    <input type="text" placeholder="Nombre y apellido">
+                    <label for="">Email</label>
+                    <input type="text" placeholder="Email">
+                    <label for="">Teléfono</label>
+                    <input type="text" placeholder="Teléfono">
+                    <label for="">Escribí tu mensaje</label>
+                    <input class="large" type="text" placeholder="Por favor escribí tu mensaje acá">
+                </form>
+                <input class="enviar" type="submit">
+            </div>
+            <!-- Multimedia -->
+            <img class="img" src="../resources/img/contacto-img.png" alt="?">
+        </section>
+
+        <section class="mapa">
+            <h1>Puntos de retiro</h1>
+            <div class="google-maps">
+                <div class="punto">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6567.583377188516!2d-58.4693117!3d-34.609428699999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1690493798063!5m2!1ses!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Villa Gral. Mitre, CABA</p>
+                </div>
+                <div class="punto">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3284.922748651938!2d-58.4317153!3d-34.580821199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1692741426226!5m2!1ses!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>Palermo Hollywood, CABA</p>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <section class="footer__links">
+            <img class="footer__logo" src="../resources/img/logo-footer.png" alt="Logo Le Ma-ka">
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./menu.html">Menú</a></li>
+                    <li><a href="./pedidos-especiales.html">Pedidos</a></li>
+                    <li><a href="./sobre-mi.html">Sobre mí</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./faqs.html">FAQs</a></li>
+                </ul>
+            </nav>
+            <div class="footer__icons">
+                <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F5491125678513&e=AT3nJJq7oop2o7oEMc1sSmIMJ976OdHqtdTlT35abrT8IbM3Y9qm6VtC345TZdV2hRpzYC2mFGpnayiLx1xc0ZO9sVm6iYAK2QvK8W39kJhYaEcs"
+                    target="_blank">
+                    <img src="../resources/icons/WhatsApp.png" alt="WhatsApp">
+                </a>
+                <a href="https://www.instagram.com/lemakabsas/" target="_blank">
+                    <img src="../resources/icons/Instagram.png" alt="Instagram">
+                </a>
+            </div>
+        </section>
+        <p class="copyright">Copyright © 2023 Le-maka Buenos Aires | Todos los derechos reservados</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

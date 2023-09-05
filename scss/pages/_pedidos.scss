@@ -1,0 +1,79 @@
+/* Contenido principal Pedidos especiales */
+#body-especiales {
+    background-color: #FEF6F6;
+}
+
+#main-especiales .img-especiales {
+    display: flex;
+    justify-content: center;
+    margin: 77px 0;
+}
+
+#main-especiales .img-especiales div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-right: -60px;
+}
+
+#main-especiales .img-especiales h3 {
+    color: #000;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+#main-especiales .img-especiales h3 {
+    display: flex;
+}
+
+#main-especiales h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+    padding-bottom: 154px;
+}
+
+#main-especiales .especiales {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 96px;
+    justify-content: center;
+}
+
+#main-especiales div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+#main-especiales .title {
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px;
+    margin-bottom: 96px;
+}
+
+#main-especiales .text {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 574px;
+}
