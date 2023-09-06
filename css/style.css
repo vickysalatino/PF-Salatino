@@ -18,26 +18,21 @@ header {
   background-color: #FEF6F6;
   z-index: 100;
 }
-
-/* Navegación */
-.header {
+header .header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 40px 0;
 }
-
-.header ul {
+header .header ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
 }
-
-.nav li {
+header .header .nav li {
   margin: 0 20px;
 }
-
-.nav a {
+header .header a {
   color: black;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
@@ -45,12 +40,10 @@ header {
   font-style: normal;
   font-weight: 400;
 }
-
-.nav a:hover {
+header .header a:hover {
   color: #D6B495;
 }
-
-.nav a:active {
+header .header a:active {
   color: #D6B495;
 }
 
