@@ -1,0 +1,73 @@
+/* Contenido principal Sobre mí */
+#body-sobre-mi {
+    background-color: #FEF6F6;
+}
+
+#main-sobremi h2 {
+    color: #D6B495;
+    text-align: center;
+    font-family: Oooh Baby;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 189px;
+    margin: auto;
+    padding: 77px 0;
+}
+
+#main-sobremi h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 154px;
+    max-width: 1149px;
+    margin: auto;
+}
+
+#main-sobremi .img-agus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    max-width: 100%;
+    margin: 30px auto;
+    justify-items: center;
+}
+
+#main-sobremi .img-agus img {
+    margin: 0;
+    max-width: 350px;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    #main-sobremi h1 {
+        font-size: 54px;
+        max-width: 750px;
+    }
+
+    #main-sobremi .img-agus img {
+        max-width: 200px;
+    }
+}
+
+/* Media Queries */
+@media (max-width: 480px) {
+    #main-sobremi h2 {
+        font-size: 44px;
+    }
+
+    #main-sobremi h1 {
+        font-size: 36px;
+        max-width: 420px;
+        padding-bottom: 80px;
+    }
+
+    #main-sobremi .img-agus img {
+        max-width: 110px;
+    }
+}

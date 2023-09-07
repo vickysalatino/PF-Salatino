@@ -1,0 +1,165 @@
+/* Contenido principal Contacto */
+#body-contacto {
+    background-color: #FEF6F6;
+}
+
+#main-contacto .form {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100%;
+    gap: 118px;
+    margin-top: 77px;
+}
+
+#main-contacto .form .left {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+#main-contacto .form .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+#main-contacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#main-contacto .enviar {
+    margin-top: 47px;
+}
+
+#main-contacto .form h2 {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+#main-contacto .form h1 {
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#main-contacto .form p {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 8px;
+    max-width: 432px;
+}
+
+#main-contacto .email .whatsapp {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#main-contacto .form label {
+    color: #000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    display: block;
+}
+
+#main-contacto .form input {
+    color: #AAA;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    display: block;
+    width: 506px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border-color: #F6F6F6;
+    background: #ffffff;
+    border-style: none;
+    padding: 0 24px;
+}
+
+#main-contacto .large {
+    display: flex;
+    width: 506px;
+    padding: 24px 24px 100px 24px;
+    align-items: flex-start;
+}
+
+#main-contacto .form .enviar {
+    display: flex;
+    height: 48px;
+    width: 125px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 36.55px;
+    background: #D6B495;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+#main-contacto .form .img {
+    max-width: 50%;
+    align-self: flex-start;
+}
+
+#main-contacto .mapa h1 {
+    color: #000;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 77px;
+    margin-bottom: 96px;
+}
+
+#main-contacto .mapa .google-maps {
+    display: flex;
+    align-items: flex-start;
+    gap: 412px;
+    justify-content: center;
+}
+
+#main-contacto .mapa .punto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+#main-contacto .mapa .punto p {
+    color: #000;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 40px;
+}

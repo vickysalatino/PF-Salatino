@@ -18,21 +18,26 @@ header {
   background-color: #FEF6F6;
   z-index: 100;
 }
-header .header {
+
+/* Navegación */
+.header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 40px 0;
 }
-header .header ul {
+
+.header ul {
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
 }
-header .header .nav li {
+
+.nav li {
   margin: 0 20px;
 }
-header .header a {
+
+.nav a {
   color: black;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
@@ -40,10 +45,12 @@ header .header a {
   font-style: normal;
   font-weight: 400;
 }
-header .header a:hover {
+
+.nav a:hover {
   color: #D6B495;
 }
-header .header a:active {
+
+.nav a:active {
   color: #D6B495;
 }
 
@@ -51,6 +58,24 @@ header .header a:active {
   display: none;
 }
 
+.navbar {
+  display: none;
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+  .header {
+    display: none;
+  }
+  .navbar {
+    display: block;
+    background-color: #FEF6F6 !important;
+  }
+  .nav-link {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+  }
+}
 /* Contenido principal Inicio */
 #body-index {
   background-color: #FEF6F6;
@@ -293,6 +318,37 @@ header .header a:active {
   padding-bottom: 64px;
 }
 
+/* Media Queries */
+@media (max-width: 800px) {
+  .main-menu__img-sabores {
+    height: 120px;
+  }
+  .main-menu__img-cajas {
+    height: 120px;
+  }
+}
+/* Media Queries */
+@media (max-width: 480px) {
+  /* Página Menú */
+  .main-menu__img-sabores {
+    height: 90px;
+  }
+  .main-menu__sabores h2 {
+    font-size: 20px;
+    padding-bottom: 12px;
+  }
+  .main-menu__sabores p {
+    font-size: 18px;
+    max-width: 400px;
+  }
+  .main-menu__img-cajas {
+    height: 80px;
+  }
+  .main-menu__cajas p {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+}
 /* Contenido principal Pedidos especiales */
 #body-especiales {
   background-color: #FEF6F6;
@@ -418,6 +474,30 @@ header .header a:active {
   max-width: 350px;
 }
 
+/* Media Queries */
+@media (max-width: 800px) {
+  #main-sobremi h1 {
+    font-size: 54px;
+    max-width: 750px;
+  }
+  #main-sobremi .img-agus img {
+    max-width: 200px;
+  }
+}
+/* Media Queries */
+@media (max-width: 480px) {
+  #main-sobremi h2 {
+    font-size: 44px;
+  }
+  #main-sobremi h1 {
+    font-size: 36px;
+    max-width: 420px;
+    padding-bottom: 80px;
+  }
+  #main-sobremi .img-agus img {
+    max-width: 110px;
+  }
+}
 /* Contenido principal Contacto */
 #body-contacto {
   background-color: #FEF6F6;
@@ -684,30 +764,6 @@ header .header a:active {
 
 /* Media Queries */
 @media (max-width: 800px) {
-  .header {
-    display: none;
-  }
-  .navbar {
-    display: block;
-    background-color: #FEF6F6 !important;
-  }
-  .nav-link {
-    color: black;
-    font-family: "Josefin Sans", sans-serif;
-  }
-  .main-menu__img-sabores {
-    height: 120px;
-  }
-  .main-menu__img-cajas {
-    height: 120px;
-  }
-  #main-sobremi h1 {
-    font-size: 54px;
-    max-width: 750px;
-  }
-  #main-sobremi .img-agus img {
-    max-width: 200px;
-  }
   #main-faqs .title-faqs h1 {
     font-size: 50px;
   }
@@ -760,38 +816,8 @@ header .header a:active {
     margin-top: 10px;
   }
 }
-/* Estilos para la versión móvil más pequeña (pantallas de 480px o menos) */
+/* Media Queries */
 @media (max-width: 480px) {
-  /* Página Menú */
-  .main-menu__img-sabores {
-    height: 90px;
-  }
-  .main-menu__sabores h2 {
-    font-size: 20px;
-    padding-bottom: 12px;
-  }
-  .main-menu__sabores p {
-    font-size: 18px;
-    max-width: 400px;
-  }
-  .main-menu__img-cajas {
-    height: 80px;
-  }
-  .main-menu__cajas p {
-    font-size: 18px;
-    padding-bottom: 30px;
-  }
-  #main-sobremi h2 {
-    font-size: 44px;
-  }
-  #main-sobremi h1 {
-    font-size: 36px;
-    max-width: 420px;
-    padding-bottom: 80px;
-  }
-  #main-sobremi .img-agus img {
-    max-width: 110px;
-  }
   #main-faqs .title-faqs h1 {
     font-size: 40px;
   }
