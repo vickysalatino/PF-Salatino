@@ -702,6 +702,17 @@ header {
   --bs-accordion-bg: #FEF6F6;
 }
 
+/* Media Queries */
+@media (max-width: 800px) {
+  #main-faqs .title-faqs h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 480px) {
+  #main-faqs .title-faqs h1 {
+    font-size: 40px;
+  }
+}
 /* Pie de página */
 .footer {
   background-color: black;
@@ -764,9 +775,6 @@ header {
 
 /* Media Queries */
 @media (max-width: 800px) {
-  #main-faqs .title-faqs h1 {
-    font-size: 50px;
-  }
   .footer {
     height: 100%;
     margin-top: 80px;
@@ -816,12 +824,7 @@ header {
     margin-top: 10px;
   }
 }
-/* Media Queries */
 @media (max-width: 480px) {
-  #main-faqs .title-faqs h1 {
-    font-size: 40px;
-  }
-  /* Footer */
   .footer {
     margin-top: 60px;
     height: 100%;
