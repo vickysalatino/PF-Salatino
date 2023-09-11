@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Tipografía + Variables + Extend  */
 /* TIPOGRAFÍA WEB */
 /* Oswald títulos*/
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
@@ -89,6 +90,7 @@ header {
   display: flex;
   justify-content: center;
   padding-top: 175px;
+  flex-wrap: wrap;
 }
 
 #main-index .text-container {
@@ -669,24 +671,14 @@ header {
   background-color: #FEF6F6;
 }
 
-#main-faqs .title-faqs {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#main-faqs .accordion {
+  --bs-accordion-btn-bg: $fondo;
+  --bs-accordion-active-bg: $fondo;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-bg: $fondo;
 }
 
-#main-faqs .title-faqs h1 {
-  color: #000;
-  font-family: "Oswald", sans-serif;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 66px;
-  margin-top: 77px;
-  margin-bottom: 16px;
-}
-
-#main-faqs h2 {
+.accordion-item h2 {
   color: #7B7B7B;
   font-family: "Josefin Sans", sans-serif;
   font-size: 28px;
@@ -695,11 +687,20 @@ header {
   padding-top: 118px;
 }
 
-.accordion {
-  --bs-accordion-btn-bg: #FEF6F6;
-  --bs-accordion-active-bg: #FEF6F6;
-  --bs-accordion-btn-focus-box-shadow: none;
-  --bs-accordion-bg: #FEF6F6;
+.title-faqs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-faqs h1 {
+  color: #000;
+  font-family: "Oswald", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 66px;
+  margin-top: 77px;
+  margin-bottom: 16px;
 }
 
 /* Media Queries */
@@ -854,4 +855,11 @@ header {
   .footer__icons {
     margin-top: 10px;
   }
+}
+.navbar-toggler {
+  border-color: #FEF6F6;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://cdn.icon-icons.com/icons2/1875/PNG/512/hamburgermenu_120234.png);
 }/*# sourceMappingURL=style.css.map */

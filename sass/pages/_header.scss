@@ -2,7 +2,7 @@
 header {
     position: sticky;
     top: 0;
-    background-color: #FEF6F6;
+    background-color: $fondo;
     z-index: 100; }
   
   /* Navegación */
@@ -29,10 +29,10 @@ header {
     font-weight: 400; }
   
   .nav a:hover {
-    color: #D6B495; }
+    color: $acento; }
   
   .nav a:active {
-    color: #D6B495; }
+    color: $acento; }
   
   .navbar {
     display: none; }
@@ -50,7 +50,7 @@ header {
 
     .navbar {
         display: block;
-        background-color: #FEF6F6 !important
+        background-color: $fondo !important
     }
 
     .nav-link {

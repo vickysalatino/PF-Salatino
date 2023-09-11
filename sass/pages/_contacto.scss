@@ -1,6 +1,6 @@
 /* Contenido principal Contacto */
 #body-contacto {
-    background-color: #FEF6F6;
+    background-color: $fondo;
 }
 
 #main-contacto .form {
@@ -114,7 +114,7 @@
     align-items: center;
     gap: 8px;
     border-radius: 36.55px;
-    background: #D6B495;
+    background: $acento;
     color: #FFF;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;

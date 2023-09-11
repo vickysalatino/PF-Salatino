@@ -1,9 +1,24 @@
+/* Tipografía + Variables + Extend  */
+@import "./assets/typography";
+@import "./assets/colors";
+
 @import "./assets/reset";
 @import "./pages/header";
+
 @import "./pages/main-index";
 @import "./pages/menu";
 @import "./pages/pedidos";
 @import "./pages/sobre-mi";
 @import "./pages/contacto";
 @import "./pages/faqs";
+
 @import "./pages/footer";
+
+// Customización Bootstrap
+.navbar-toggler {
+    border-color: $fondo;
+}
+
+.navbar-toggler-icon{
+    background-image: url(https://cdn.icon-icons.com/icons2/1875/PNG/512/hamburgermenu_120234.png);
+}

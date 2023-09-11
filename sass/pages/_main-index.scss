@@ -1,16 +1,17 @@
 /* Contenido principal Inicio */
 #body-index {
-    background-color: #FEF6F6;
+    background-color: $fondo;
 }
 
 #main-index {
-    background-color: #FEF6F6;
+    background-color: $fondo;
 }
 
 #main-index .hero {
     display: flex;
     justify-content: center;
     padding-top: 175px;
+    flex-wrap: wrap;
 }
 
 #main-index .text-container {
@@ -49,8 +50,8 @@
     align-items: center;
     gap: 8px;
     border-radius: 36.55px;
-    border-color: #D6B495;
-    background: #D6B495;
+    border-color: $acento;
+    background: $acento;
     color: #FFF;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
@@ -85,7 +86,7 @@
 
 /* Sección marcas */
 #main-index .marcas {
-    background-color: #FEF6F6;
+    background-color: $fondo;
     margin: 77px 0 96px 0;
 }
 
