@@ -119,6 +119,7 @@ header {
   font-weight: 400;
   line-height: 30px;
   display: block;
+  max-width: 400px;
 }
 
 #main-index .hero-button {
@@ -181,58 +182,18 @@ header {
 
 #main-index .marcas__img {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 48px;
+  justify-content: space-evenly;
+  margin: 0 10%;
 }
-
-#main-index .marcas__img-fila1 {
-  display: flex;
-  align-items: center;
-  gap: 135px;
+#main-index .marcas__img img {
+  height: 50px;
 }
-
-#main-index .marcas__img-fila2 {
-  display: flex;
-  align-items: center;
-  gap: 150px;
+#main-index .marcas__img .smaller {
+  height: 30px;
 }
 
 /* Sección Nuestras creaciones */
-#main-index .creaciones {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-#main-index .creaciones__text {
-  max-width: 614px;
-}
-
-#main-index .creaciones__titulo {
-  color: #000;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 46px;
-  padding-bottom: 24px;
-}
-
-#main-index .creaciones__parrafo {
-  color: #000;
-  text-align: center;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 30px;
-  padding-bottom: 64px;
-}
-
 #main-index .creaciones__img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
