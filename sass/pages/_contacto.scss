@@ -8,21 +8,20 @@
     justify-content: flex-end;
     max-width: 100%;
     gap: 118px;
-    margin-top: 77px;
+    margin-top: 150px;
 }
 
 #main-contacto .form .left {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 48px;
+    gap: 36px;
 }
 
 #main-contacto .form .text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
 }
 
 #main-contacto form {
@@ -63,6 +62,10 @@
     max-width: 432px;
 }
 
+#main-contacto .form .email{
+    margin: 0;
+}
+
 #main-contacto .email .whatsapp {
     color: #000;
     font-family: 'Josefin Sans', sans-serif;
@@ -90,7 +93,7 @@
     font-weight: 300;
     display: block;
     width: 506px;
-    height: 72px;
+    height: 48px;
     flex-shrink: 0;
     border-radius: 50px;
     border-color: #F6F6F6;
@@ -122,6 +125,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
+    margin: 0;
 }
 
 #main-contacto .form .img {
@@ -145,6 +149,7 @@
     align-items: flex-start;
     gap: 412px;
     justify-content: center;
+    margin-bottom: 98px;
 }
 
 #main-contacto .mapa .punto {

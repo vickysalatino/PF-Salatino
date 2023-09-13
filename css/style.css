@@ -7,6 +7,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap");
 /* Oooh Baby */
 @import url("https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap");
+.slide-top {
+  -webkit-animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -89,7 +114,7 @@ header {
 #main-index .hero {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 200px;
   flex-wrap: wrap;
 }
 
@@ -161,6 +186,7 @@ header {
   font-weight: 700;
   width: 680px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+  padding: 100px 0;
 }
 
 /* Sección marcas */
@@ -225,7 +251,6 @@ header {
   #main-index .textura-text {
     font-size: 28px;
     width: 345px;
-    padding: 100px 0;
   }
   #main-index .marcas__titulo {
     font-size: 30px;
@@ -248,7 +273,7 @@ header {
 .main-menu__img-sabores {
   display: flex;
   justify-content: center;
-  margin: 77px 0;
+  margin: 200px 0 36px 0;
 }
 
 .main-menu__sabores h1 {
@@ -354,7 +379,7 @@ header {
 #main-especiales .img-especiales {
   display: flex;
   justify-content: center;
-  margin: 77px 0;
+  margin: 200px 0 36px 0;
 }
 
 #main-especiales .img-especiales div {
@@ -441,7 +466,7 @@ header {
   line-height: normal;
   max-width: 189px;
   margin: auto;
-  padding: 77px 0;
+  padding: 150px 0 77px 0;
 }
 
 #main-sobremi h1 {
@@ -452,7 +477,7 @@ header {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-bottom: 154px;
+  padding-bottom: 64px;
   max-width: 1149px;
   margin: auto;
 }
@@ -505,21 +530,20 @@ header {
   justify-content: flex-end;
   max-width: 100%;
   gap: 118px;
-  margin-top: 77px;
+  margin-top: 150px;
 }
 
 #main-contacto .form .left {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 48px;
+  gap: 36px;
 }
 
 #main-contacto .form .text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
 }
 
 #main-contacto form {
@@ -560,6 +584,10 @@ header {
   max-width: 432px;
 }
 
+#main-contacto .form .email {
+  margin: 0;
+}
+
 #main-contacto .email .whatsapp {
   color: #000;
   font-family: "Josefin Sans", sans-serif;
@@ -587,7 +615,7 @@ header {
   font-weight: 300;
   display: block;
   width: 506px;
-  height: 72px;
+  height: 48px;
   flex-shrink: 0;
   border-radius: 50px;
   border-color: #F6F6F6;
@@ -619,6 +647,7 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
+  margin: 0;
 }
 
 #main-contacto .form .img {
@@ -642,6 +671,7 @@ header {
   align-items: flex-start;
   gap: 412px;
   justify-content: center;
+  margin-bottom: 98px;
 }
 
 #main-contacto .mapa .punto {
@@ -682,6 +712,11 @@ header {
   padding-top: 118px;
 }
 
+.espaciado {
+  width: 100%;
+  height: 150px;
+}
+
 .title-faqs {
   display: flex;
   flex-direction: column;
@@ -694,7 +729,7 @@ header {
   font-style: normal;
   font-weight: 500;
   line-height: 66px;
-  margin-top: 77px;
+  margin-top: 200px;
   margin-bottom: 16px;
 }
 
