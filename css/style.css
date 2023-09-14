@@ -417,6 +417,7 @@ header {
 
 #main-especiales .especiales {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   align-items: flex-start;
   gap: 50px;
@@ -451,6 +452,44 @@ header {
   width: 574px;
 }
 
+/* Media queries */
+@media (max-width: 768px) {
+  #main-especiales .img-especiales img {
+    height: 180px;
+  }
+  #main-especiales .img-especiales div {
+    margin-right: -45px;
+  }
+  #main-especiales .img-especiales h3 {
+    font-size: 18px;
+  }
+  #main-especiales .title {
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 425px) {
+  #main-especiales .img-especiales img {
+    height: 115px;
+  }
+  #main-especiales .img-especiales div {
+    margin-right: -38px;
+  }
+  #main-especiales .img-especiales h3 {
+    font-size: 12px;
+  }
+  #main-especiales h1 {
+    font-size: 48px;
+  }
+  #main-especiales div {
+    max-width: 370px;
+  }
+  #main-especiales .text {
+    width: 324px;
+  }
+  #main-especiales img {
+    max-width: 350px;
+  }
+}
 /* Contenido principal Sobre mí */
 #body-sobre-mi {
   background-color: #FEF6F6;
@@ -651,7 +690,7 @@ header {
 }
 
 #main-contacto .form .img {
-  max-width: 50%;
+  width: 50%;
   align-self: flex-start;
 }
 
@@ -668,6 +707,7 @@ header {
 
 #main-contacto .mapa .google-maps {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   gap: 412px;
   justify-content: center;
@@ -691,6 +731,43 @@ header {
   padding-left: 40px;
 }
 
+/* Media queries */
+@media (max-width: 768px) {
+  #main-contacto .form {
+    flex-direction: column-reverse;
+  }
+  #main-contacto .form .img {
+    width: 90%;
+    align-self: flex-end;
+  }
+  #main-contacto .form .left {
+    margin-left: 40px;
+  }
+  #main-contacto .mapa .google-maps {
+    gap: 85px;
+  }
+}
+@media (max-width: 425px) {
+  #main-contacto .form .img {
+    width: 90%;
+    align-self: flex-end;
+  }
+  #main-contacto .form .left {
+    margin-left: 40px;
+  }
+  #main-contacto .mapa .google-maps {
+    gap: 85px;
+  }
+  #main-contacto .form input {
+    width: 340px;
+  }
+  #main-contacto .form p {
+    width: 336px;
+  }
+  #main-contacto .mapa h1 {
+    margin-top: 40px;
+  }
+}
 /* Contenido principal Preguntas frecuentes */
 #body-faqs {
   background-color: #FEF6F6;
