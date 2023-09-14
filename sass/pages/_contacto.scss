@@ -126,6 +126,11 @@
     font-weight: 500;
     line-height: 18px;
     margin: 0;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.enviar:hover{
+    box-shadow: 0 0 40px 40px $hover inset;
 }
 
 #main-contacto .form .img {
