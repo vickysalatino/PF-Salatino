@@ -94,7 +94,7 @@ header {
     display: none;
   }
   .navbar {
-    display: block;
+    display: flex;
     background-color: #FEF6F6 !important;
   }
   .nav-link {
@@ -198,6 +198,7 @@ header {
 #main-index .marcas {
   background-color: #FEF6F6;
   margin: 77px 0 96px 0;
+  margin-top: 0px;
 }
 
 #main-index .marcas__titulo {
