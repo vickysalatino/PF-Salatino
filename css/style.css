@@ -94,7 +94,7 @@ header {
     display: none;
   }
   .navbar {
-    display: flex;
+    display: block;
     background-color: #FEF6F6 !important;
   }
   .nav-link {
@@ -235,7 +235,7 @@ header {
 
 #main-index .creaciones__img img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
